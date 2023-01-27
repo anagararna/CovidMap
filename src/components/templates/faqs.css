@@ -1,0 +1,62 @@
+.faqs {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(
+    to right,
+    rgba(29,31,163, 0.9),
+    rgba(6,184,222, 0.9)
+    ), url("../../images/slide-1.jpg");
+    justify-content: center;
+}
+
+.page-faqs-titles-title {
+    font-family: "Poppins";
+    color: white;
+}
+
+.page-faqs-titles-subtitle {
+    font-family: "Poppins";
+    font-size: calc(2em + 1vw);
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.row-faqs {
+    display: flex;
+}
+
+.col-faqs {
+    display: flex;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 1%
+}
+
+.card-faqs {
+    display: flex;
+    min-height: 60%;
+    background-color: rgba(30,12,157, 0.5);
+    padding: 5%;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.06em;
+    text-align: left;
+    font-family: "Poppins";
+    color: white;
+    align-items: center;
+}
+
+.card-faqs-text-title {
+    font-weight: bolder;
+    font-size: calc(0.6em + 0.5vw);
+    margin-top: 2%;
+}
+
+.card-faqs-text-paragraph {
+    font-size: calc(0.3em + 0.5vw);
+}
+

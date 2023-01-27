@@ -1,0 +1,19 @@
+.navbar{
+  background-color: #fff;
+}
+
+.navbar.scroll{
+  background-color: #fff;
+}
+  
+.navbar-item{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(56, 54, 54);
+  font-size: 1rem;
+}
+
+.navbar-item:hover{
+  color: rgb(18, 28, 206);
+}
+

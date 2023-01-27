@@ -1,0 +1,99 @@
+.div-top10country{
+    background-color: #f5f6fa;
+    height: 1200px;
+    margin: 0em;
+}
+
+.h-div-top10country{
+    text-align: left;
+    padding-left: 1em;
+    font-family: Poppins, sans-serif;
+    font-size: 28px;
+    font-weight: 600 ;
+}
+
+.div-top10country-main{
+  font-family: Poppins, sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin: 0em;
+}
+
+.div-top10country-main-TopToday{
+    width: 215px;
+}
+
+.h-div-top10country-main{
+    text-align:center ;
+    padding-left: 1em;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 600 ;
+}
+
+.li-top10country-main{
+    list-style:none;
+}
+
+.div-list-top10country-main{
+    background-color: #ffffff;
+    border-radius: .3em;
+    width: 200px;
+    height: 60px;
+}
+
+.div-list-top10country-main:hover{
+    background-color: #ffffff;
+    border-radius: .3em;
+    margin-left: .5em;
+    margin-right: .5em;
+    width: 200px;
+    height: 60px;
+
+}
+
+.span-div-list-top10country-main-1{
+    text-align:end ;
+    padding-top: 1em;
+    margin-left: 0em;
+    margin-right: .4em;
+    width: 50px;
+    height: 50px;
+    float:left;
+    font-size: 12px;
+    font-weight: 600 ;
+   
+}
+.span-div-list-top10country-main-2{
+    text-align: left ;
+    padding: 0em;
+    margin: 0em;
+    width: 120px;
+    height: 50px;
+    float: right;
+    font-size: 12px;
+    font-weight: 600 ;
+       
+}
+
+.flag-top10country{
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50em;
+}
+
+.p-span-div-list-top10country-main-2-1{
+    font-size: 10px;
+    font-weight: 600 ;
+    padding: 0em;
+    margin: 0em;
+    height: 3em;
+    text-align:justify;
+}
+
+.p-span-div-list-top10country-main-2-2{
+    font-size: 18px;
+    font-weight: 600 ;
+    padding: 0em;
+    margin: 0em;
+}

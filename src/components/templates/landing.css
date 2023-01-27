@@ -1,0 +1,193 @@
+.landing-container{
+  font-family: 'Poppins';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-size: cover;
+  background-image:linear-gradient(to right, rgba(30,12,157,0.7), rgba(6,205,236,0.7)), 
+  url(../../images/3626307.jpg);
+  position: relative;
+}
+
+.img-fluid{
+  height: auto;
+  min-width: 70%;
+}
+
+.card-api{
+  position: relative;
+  width: 30vw;
+  height: 90vh;
+  margin-left: 15%; 
+}
+
+.card-api div{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition:5s;
+}
+
+.card-country{
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius:10px;
+  width: 300px;
+  height: 90px;
+  text-align: left;
+}
+
+.card-country-flag{
+  width: 30%;
+}
+
+.card-country-right{
+  padding:1em;
+  width: 200px;
+  color: red;
+  margin-left: 35%;
+}
+
+.card-country-left{
+  padding:1em;
+  width: 120px;
+}
+
+.Deaths{
+  background-color: orange;
+  color:white;
+  border-radius: 3px;
+}
+
+.Recovered{
+  background-color:rgb(36, 243, 129);
+  color:white;
+  border-radius: 3px;
+}
+
+/*.bg-landingImg{
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background: linear-gradient(to right, #1e0c9d, #06cdec);
+  opacity: .75;
+} */
+
+
+/* 
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;  
+ 
+}
+
+:root{
+  --primary:hsl(240, 100%, 14%, 0.65);
+  --secondary:hsla(193, 78%, 49%, 0.651);
+ 
+}
+
+
+{
+  background: linear-gradient(135deg,var(--primary), var(--secondary)),
+         url("../../images/3626307.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%,100%;
+
+}
+
+.h1-home {
+  font-family: 'Poppins', sans-serif;
+  font-size:30pt;
+  font-weight: bold;
+  padding-top: 120px;   
+}
+.p-home{
+  font-family: 'Poppins', sans-serif;
+  padding-top:10px; 
+}
+
+//.img-fluid{
+  height:200px;
+  padding-right: 100px; 
+  margin-top: 80px;
+
+}
+
+.card{
+  position: relative;
+  width: 300px;
+  height: 90px;
+  margin: left 8px; 
+  
+}
+.card div{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  backface-visibility: hidden;
+  transition:5s;
+
+}
+
+.card-country{
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius:10px;
+  width: 300px;
+  height: 90px;
+  text-align: left;
+}
+.card-country-flag{
+  width: 100%;
+}
+.card-country-right{
+  padding:1em;
+  width: 200px;
+  color: red;
+  margin-left: 30px;
+
+  
+}
+.card-country-left{
+  padding:1em;
+  width: 120px;
+
+}
+
+.Deaths{
+  background-color: orange;
+  color:white;
+  border-radius: 3px;
+}
+.Recovered{
+  background-color:rgb(36, 243, 129);
+  color:white;
+  border-radius: 3px;
+}
+@media (min-width: 376px){
+  .img-fluid {
+  width: 70%;
+  }
+  
+};
+
+
+@media (max-width: 375px) {
+  .img-fluid {
+    
+  }
+
+}; */

@@ -1,0 +1,104 @@
+@media only screen and (max-width: 991px){
+.main-admin {
+    flex-direction: column !important;
+    display: flex;
+}
+}
+.track01 {
+    background-color: aliceblue;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+}
+#carta {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.parrafo {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+}
+
+.colores {
+    width: 8.5rem;
+    height: 8.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.15;
+    transform: translate(1.5rem, -2rem);
+    animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  #mapa {
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 400px;;
+  }
+  .color {
+    width: 8.5rem;
+    height: 8.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  .card-animation {
+    transition: all 0.5 ease-in;
+}
+
+.card-animation:hover {
+    transform: translateY(-0.5rem);
+    transition: all 0.5 ease-in;
+}
+
+.card-total-cases {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.card-total-cases img {
+    width: 8.5rem;
+    height: 8.5rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    opacity: 0.15;
+    transform: translate(1.5rem, -2rem);
+}
+
+.card-total-cases img:hover {
+    animation: rotation 6s infinite linear;
+}
+
+.card-animation02:hover img {
+    animation: rotation 6s infinite linear;
+}
+
+.card-animation02 img {
+    height: 2rem;
+}

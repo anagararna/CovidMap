@@ -1,0 +1,36 @@
+.logo-traker {
+    height: 3.4rem;
+    width: 3.4rem;
+}
+.rotate {
+    animation: rotation 5s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.bar-tracker {
+    background-color:#f7f8fc ;
+    border-right: solid 0.12rem rgb(211, 211, 211);
+    width: 6rem;
+}
+
+.icon-track {
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1.3rem;
+}
+
+.icon-track:hover {
+    background-color: #3639AE;
+    color: white !important;
+}
+.item {
+    color: #3639AE;
+    margin-bottom: 4%;
+}

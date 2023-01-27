@@ -1,0 +1,156 @@
+.card-tracker {
+    min-width: 25em;
+    margin-left:5%;
+    margin-top: 5%;
+}
+
+.cards-tracker-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.cards-tracker-row-column {
+    width: 25vw;
+    margin: 1em;
+    text-align: left;
+}
+
+.card-tracker-row {
+    display: flex;
+}
+
+.col-flagcountry {
+    max-width: 1.5em;
+    max-height: 1em;
+    margin-top: 0.2em;
+    margin-right: 0.5em;
+}
+
+.col-namecountry {
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #121158;
+}
+
+.col-cases {
+    margin-right: 10%;
+    text-align: left;
+    color: #3639AE;
+}
+
+.col-cases-text {
+    font-family: "Poppins";
+    font-size: calc(0.2em + 0.5vw)
+}
+
+.col-cases-data {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: calc(0.5em + 0.5vw)
+}
+
+.col-death {
+    margin-right: 10%;
+    text-align: left;
+    color: #ff0000;
+}
+
+.col-death-text {
+    font-family: "Poppins";
+    font-size: calc(0.2em + 0.5vw)
+}
+
+.col-death-data {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: calc(0.5em + 0.5vw)
+}
+
+.col-recovered {
+    margin-right: 10%;
+    text-align: left;
+    color:#82c519;
+}
+
+.col-recovered-text {
+    font-family: "Poppins";
+    font-size: calc(0.2em + 0.5vw)
+}
+
+.col-recovered-data {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: calc(0.5em + 0.5vw)
+}
+
+.col-todaydeath {
+    min-width: 20%;
+    margin-right: 10%;
+    text-align: left;
+    color: #ff0000;
+}
+
+.col-todaydeath-text {
+    font-family: "Poppins";
+    font-size: calc(0.2em + 0.5vw)
+}
+
+.col-todaydeath-data {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: calc(0.5em + 0.5vw)
+}
+
+.col-todaycases {
+    margin-right: 10%;
+    text-align: left;
+    color: #673BB7;
+}
+
+.col-todaycases-text {
+    font-family: "Poppins";
+    font-size: calc(0.2em + 0.5vw)
+}
+
+.col-todaycases-data {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: calc(0.5em + 0.5vw)
+}
+
+.col-critical {
+    margin-right: 10%;
+    text-align: left;
+    color: #ff6a07;
+}
+
+.col-critical-text {
+    font-family: "Poppins";
+    font-size: calc(0.2em + 0.5vw)
+}
+
+.col-critical-data {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: calc(0.5em + 0.5vw)
+}
+
+.col-activecases {
+    min-width: 24%;
+    margin-right: 10%;
+    text-align: left;
+    color: #2c6dff;
+}
+
+.col-activecases-text {
+    font-family: "Poppins";
+    font-size: calc(0.2em + 0.5vw)
+}
+
+.col-activecases-data {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: calc(0.5em + 0.5vw)
+}

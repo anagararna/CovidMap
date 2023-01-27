@@ -1,0 +1,25 @@
+.img-hands{
+    width: 100%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+.wash-tittle{
+    font-family: "Poppins";
+    font-weight: bolder;
+    margin-top: 15%;
+    padding-bottom: 1%;
+    color: #293f73;
+    
+}
+
+.wash-tittle-subtittle{
+    font-size: calc(2em + 1vw);
+    font-weight: bolder;
+    padding-top: 1%;
+    font-family: "Poppins", sans-serif;
+    color: #293f73;
+    
+    
+}

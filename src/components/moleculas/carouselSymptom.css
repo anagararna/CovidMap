@@ -1,0 +1,9 @@
+.img-card{
+    width: 45%;
+}
+
+.title{
+    padding: 2%;
+    font-weight: bold;
+    font-size: calc(1em + 1vw);
+}

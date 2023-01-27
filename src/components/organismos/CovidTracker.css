@@ -1,0 +1,237 @@
+.div-covid-tracker{
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    width: 450px;
+    background-color:#f5f5f5;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin: 0;
+}
+
+.h-covid-tracker{
+    padding-left: 1em;
+    font-family: Poppins, sans-serif;
+    font-size: 28px;
+    font-weight: 800 ;
+   
+}
+
+.h-covid-tracker3{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600 ;
+    color: rgb(69, 67, 67);
+   
+}
+
+.h-top10-covid-tracker{
+    padding-left: 1em;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 800 ;
+
+}
+
+.div-btn-covid-tracker{
+    padding: .5em;
+    width: 430px;
+    background-color:#f5f5f5;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    
+ 
+}
+
+.div-list-covid-tracker{
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    width: 400px;
+    height: 60px;
+    border-radius: .3em;
+}
+
+.list-covid-tracker{
+    width: 400px;
+    text-align: left;
+    list-style:none;
+    margin-left: 0;
+}
+
+.btn-covid-tracker{
+    width: 400px;
+    text-align: left;
+    border-color: white;
+    border-width: 2px;
+    border-style: outset;
+        
+}
+
+.btn-covid-tracker:hover{
+    width: 400px;
+    text-align: left;
+    border-color: white;
+    border-width: 2px;
+    border-style: outset;
+    /*padding-left: .5em;
+    padding-right: .5em;*/
+    margin-left: .5em;
+    margin-right: .5em;
+        
+}
+
+.list-top10-covid-tracker{
+    width: 400px;
+    text-align: left;
+    list-style:none;
+    /*border-color: white;
+    border-width: 2px;
+    border-style: outset;*/
+        
+}
+
+.p-covid-tracker{
+    width: 350px;
+    align-content: center;
+    align-items: center;
+
+}
+
+.badge-covid-tracker{
+    background-color: aliceblue;
+}
+
+.span-badge-covid-tracker1{
+    text-align:left;
+    padding-top: .6em;
+    margin-right: 0em;
+    width: 170px;
+    float: left;
+        
+}
+
+.span-badge-covid-tracker2{
+    text-align:right ;
+    padding-top: .3em;
+    margin-left: 0em;
+    width: 200px;
+    float: right;
+    font-size: 24px;
+    font-weight: 600 ;
+}
+
+.badge-covid-tracker2{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.span-badge-top10-covid-tracker1{
+    text-align: left ;
+    padding: .5em;
+    margin-left: 0em;
+    width: 180px;
+    float: left;
+    font-size: 12px;
+    font-weight: 600 ;
+}
+
+.span-badge-top10-covid-tracker2{
+    text-align:right ;
+    padding: 1em;
+    margin-left: 0em;
+    width: 180px;
+    float: right;
+    font-size: 14px;
+    font-weight: 600 ;
+}
+
+.flag-covid-tracker{
+    width: 40px;
+    background-color: aliceblue;
+}
+
+.cases_covid-tracker{
+    background-color:#fff2f2;
+    color: #ff0001;
+    border-width: 3px;
+    border-color: #fff2f2;
+    border-style: solid;
+       
+}
+
+.cases_covid-tracker:hover{
+    background-color:#fff2f2;
+    color: #ff0001;
+    border-width: 3px;
+    border-color: #ff0001;
+    border-style: solid;
+}
+
+.active_covid-tracker{
+    background-color:#fff9f1;
+    color: #ff6b09 ;
+    border-width: 3px;
+    border-color: #fff9f1;
+    border-style: solid;
+}
+
+.active_covid-tracker:hover{
+    background-color:#fff9f1;
+    color: #ff6b09;
+    border-width: 3px;
+    border-color: #ff6b09;
+    border-style: solid;
+}
+
+.recovered_covid-tracker{
+    background-color: #edffec;
+    color:#89ca4d ;
+    border-width: 3px;
+    border-color: #edffec;
+    border-style: solid;
+}
+
+.recovered_covid-tracker:hover{
+    background-color: #edffec;
+    color: #89ca4d ;
+    border-width: 3px;
+    border-color:  #89ca4d;
+    border-style: solid;
+}
+
+.deaths_covid-tracker{
+    background-color: #eefbff;
+    color:#3639ae ;
+    border-width: 3px;
+    border-color: #eefbff;
+    border-style: solid;
+}
+
+.deaths_covid-tracker:hover{
+    background-color: #eefbff;
+    color:#3639ae ;
+    border-width: 3px;
+    border-color: #3639ae;
+    border-style: solid;
+}
+
+.top10_covid-tracker{
+    background-color: white;
+    border-color: white;
+    border-width: 3px;
+    border-style: outset;
+}
+
+.top10_covid-tracker:hover{
+    background-color: white;
+    border-color: white;
+    border-width: 3px;
+    border-style: outset;
+
+    margin-left: .5em;
+    margin-right: .5em;
+
+}
